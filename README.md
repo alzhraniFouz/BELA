@@ -45,7 +45,7 @@ run the script with
 ```console
 $ node par.js
 ```
-if everything works fine you should get an output like below and a json file *par-report.json*.
+if everything works fine, you should get an output like below and a json file *par-report.json*.
 
 ![PAR Screenshot](docs/PAR.png)
 
@@ -56,7 +56,7 @@ run the script with:
 ```console
 $ node elg.js
 ```
-if everything works fine you should get an output like below and a json file *elg-report.json*.
+if everything works fine, you should get an output like below and a json file *elg-report.json*.
 
 ![ELG Screenshot](docs/ELG.png)
 
@@ -72,6 +72,8 @@ It is now possible to apply Process Discovery methods to the generated event log
 ## Built With
 
 * [Node.js](https://nodejs.org/en/)
+* [Etherscan API](https://etherscan.io/apis)
+* [Web3 API](https://web3js.readthedocs.io/en/v1.8.1/)
 
 ---
 ## License
