@@ -1,0 +1,21 @@
+{
+  "name": "BELA",
+  "version": "1.3.0",
+  "description": "",
+  "main": "par.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "node par.js && node helper.js && node elg.js",
+    "decide": "node helper.js && node par.js"
+  },
+  "keywords": [],
+  "author": "Fouzia Alzhrani",
+  "license": "Apatche",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.2",
+    "json2csv": "^5.0.7",
+    "unix-timestamp": "^0.2.0",
+    "web3": "^1.2.11"
+  }
+}

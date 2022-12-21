@@ -1,0 +1,12 @@
+[
+    {
+        "network":"Ethereum Mainnet",
+        "api":"https://api.etherscan.io/api",
+        "apiKey":"TB5KYC6BBTRDVKGRSA8JZPRZCTJZAPAHC9"
+    },
+    {
+        "network": "POA Core",
+        "api": "https://blockscout.com/poa/core/api",
+        "apiKey": "TB5KYC6BBTRDVKGRSA8JZPRZCTJZAPAHC9"
+    }
+]

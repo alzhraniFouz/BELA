@@ -1,0 +1,543 @@
+[
+    {
+        "appName": "CryptoKitties",
+        "network": "Ethereum Mainnet",
+        "scID": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+        "eventList": [
+            {
+                "anonymous": false,
+                "name": "Pregnant",
+                "signature": "0x241ea03ca20251805084d27d4440371c34a0b85ff108f6bb5611248f73818b80",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "owner",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "matronId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "sireId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "cooldownEndBlock",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "Transfer",
+                "signature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "from",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "to",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "Approval",
+                "signature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "owner",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "approved",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "Birth",
+                "signature": "0x0a5311bd2a6608f08a180df2ee7c5946819a649b204b554bb8e39825b2c50ad5",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "owner",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "kittyId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "matronId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "sireId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "genes",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "ContractUpgrade",
+                "signature": "0x450db8da6efbe9c22f2347f7c2021231df1fc58d3ae9a2fa75d39fa446199305",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "newContract",
+                        "type": "address"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "appName": "CryptoKitties",
+        "network": "Ethereum Mainnet",
+        "scID": "0xc7af99fe5513eb6710e6d5f44f9989da40f27f26",
+        "Smart_Contract_Status": "Verified",
+        "Class": "Include",
+        "Reason": "Smart contract is verified and has events",
+        "eventList": [
+            {
+                "anonymous": false,
+                "name": "AuctionCreated",
+                "signature": "0xa9c8dfcda5664a5a124c713e386da27de87432d5b668e79458501eb296389ba7",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "startingPrice",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "endingPrice",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "duration",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "AuctionSuccessful",
+                "signature": "0x4fcc30d90a842164dd58501ab874a101a3749c3d4747139cefe7c876f4ccebd2",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "totalPrice",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "winner",
+                        "type": "address"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "AuctionCancelled",
+                "signature": "0x2809c7e17bf978fbc7194c0a694b638c4215e9140cacc6c38ca36010b45697df",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "Pause",
+                "signature": "0x6985a02210a168e66602d3235cb6db0e70f92b3ba4d376a33c0f3d9434bff625",
+                "inputs": []
+            },
+            {
+                "anonymous": false,
+                "name": "Unpause",
+                "signature": "0x7805862f689e2f13df9f062ff482ad3ad112aca9e0847911ed832e158c525b33",
+                "inputs": []
+            }
+        ]
+    },
+    {
+        "appName": "CryptoKitties",
+        "network": "Ethereum Mainnet",
+        "scID": "0xb1690c08e213a35ed9bab7b318de14420fb57d8c",
+        "eventList": [
+            {
+                "anonymous": false,
+                "name": "AuctionCreated",
+                "signature": "0xa9c8dfcda5664a5a124c713e386da27de87432d5b668e79458501eb296389ba7",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "startingPrice",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "endingPrice",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "duration",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "AuctionSuccessful",
+                "signature": "0x4fcc30d90a842164dd58501ab874a101a3749c3d4747139cefe7c876f4ccebd2",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "totalPrice",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "winner",
+                        "type": "address"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "AuctionCancelled",
+                "signature": "0x2809c7e17bf978fbc7194c0a694b638c4215e9140cacc6c38ca36010b45697df",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "Pause",
+                "signature": "0x6985a02210a168e66602d3235cb6db0e70f92b3ba4d376a33c0f3d9434bff625",
+                "inputs": []
+            },
+            {
+                "anonymous": false,
+                "name": "Unpause",
+                "signature": "0x7805862f689e2f13df9f062ff482ad3ad112aca9e0847911ed832e158c525b33",
+                "inputs": []
+            }
+        ]
+    },
+    {
+        "appName": "CryptoKitties",
+        "network": "Ethereum Mainnet",
+        "scID": "0x57831a0c76ba6b4fdcbadd6cb48cb26e8fc15e93",
+        "eventList": [
+            {
+                "anonymous": false,
+                "name": "OfferCreated",
+                "signature": "0x05a7f246d4cdcfed1a85bd6331d1638fa8d47fffd48ede9a22f93d06641f309c",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "bidder",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "expiresAt",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "total",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "offerPrice",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "OfferCancelled",
+                "signature": "0x0f30ae9004015531e44539aa93fcbe6e33146abeeed21661204fa432da6bc075",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "bidder",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "bidderReceived",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "fee",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "OfferFulfilled",
+                "signature": "0x9accbcf984c4cd67a675ee4d38143974e1fa62aa95da283bd4ca645e408ec283",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "bidder",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "owner",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "ownerReceived",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "fee",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "OfferUpdated",
+                "signature": "0x56cb95d5e0f3ba4459f610fef3ba603635cef803d945e97c316cdeb392903991",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "bidder",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "newExpiresAt",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "totalRaised",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "ExpiredOfferRemoved",
+                "signature": "0xd876ee5dd9082a3ac4fe7be4799528f1d5f3545cee1516f2821d0f8ecc9d629c",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "bidder",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "bidderReceived",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "fee",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "BidderWithdrewFundsWhenFrozen",
+                "signature": "0x2014255827f37802573fb6164526f1d41d309fd57001e38c8f169ffb76117098",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "bidder",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "amount",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "PushFundsFailed",
+                "signature": "0x47b2b7bdacd5004b5f20c86ec07ecda11e5ac511d4ad9ed9ed2c5af4c42cb4bd",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "tokenId",
+                        "type": "uint256"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "to",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "amount",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "GlobalDurationUpdated",
+                "signature": "0x66be647974b8677ccbdb171c9fd037f0f64af878ddc5b7f0923da6a32173ae47",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "value",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "MinimumTotalValueUpdated",
+                "signature": "0x4193e3b6c8a874196e0068cb9b96b2aaef71a2d90fc46254c4508e1003996bd5",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "value",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "MinimumPriceIncrementUpdated",
+                "signature": "0x2fa1029ea9a56473df3e068ba4dc7f4343efacb8a54b808f595f78d1d62f0035",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "value",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "OfferCutUpdated",
+                "signature": "0x4a13d5076f950a8eb96f30e1f814eecade18fcebc5042f3ce669cea283edaefd",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "value",
+                        "type": "uint256"
+                    }
+                ]
+            },
+            {
+                "anonymous": false,
+                "name": "UnsuccessfulFeeUpdated",
+                "signature": "0xfa4a24dc8c85bb39a38146f43e5611e67c18d4df990b85be0fa17a8d9c7f3cc9",
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "value",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        ]
+    }
+]
