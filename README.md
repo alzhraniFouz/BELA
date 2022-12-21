@@ -43,11 +43,11 @@ It is a rule-based classifier that identify suitable blockchain applications for
 
 run the script with
 ```console
-$ node si.js
+$ node par.js
 ```
 if everything works fine you should get an output like below and a json file *par-report.json*.
 
-![PAR Screenshot](docs/)
+![PAR Screenshot](docs/PAR.png)
 
 ### 3. Event Log Generator (ELG) Module
 The *Included* smart contracts from PAR should be identified in *elg-input-addresses.json*. ELG extracts and format event data and export the event logs as CSV files for each blockchain application.
@@ -58,15 +58,15 @@ $ node elg.js
 ```
 if everything works fine you should get an output like below and a json file *elg-report.json*.
 
-![ELG Screenshot](docs/)
+![ELG Screenshot](docs/ELG.png)
 
 After executing this script, a csv file is created inside */event-log/* for each blockchain application. This event log can then be used for process mining.
 
 
 ## Process Mining
-It is now possible to apply Process Discovery methods to the generated event logs to derive process models. An example is given below for [CryptoKitties]() application using [IBM Process Mining]().
+It is now possible to apply Process Discovery methods to the generated event logs to derive process models. An example is given below for [CryptoKitties](https://www.cryptokitties.co/) application using [IBM Process Mining](https://www.ibm.com/products/process-mining).
 
-![CKModel](docs/)
+![CKModel](docs/CK-PM.png)
 
 
 ## Built With
