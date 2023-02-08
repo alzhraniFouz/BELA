@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'BELA: Blockchain Event Log App'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Fouzia
+    family-names: Alzhrani
+    email: feaalzhrani@kau.edu.sa
+    affiliation: King Abdulaziz University
+    orcid: 'https://orcid.org/0000-0002-5780-0469'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7620035
+repository-code: 'https://github.com/alzhraniFouz/BELA'
+license: Apache-2.0
