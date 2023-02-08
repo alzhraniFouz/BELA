@@ -1,6 +1,6 @@
 # BELA: Blockchain Event Log App
 
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7620035.svg)](https://doi.org/10.5281/zenodo.7620035)
 
 ## What it does
 The application consists of two modules: Process Awareness Recognizer (PAR) and Event Log Generator (ELG). PAR is a rule-based classifier to assess the process awareness of a given blockchain application. ELG is an automated model consisting of three methods: 1) Extractor: an algorithm for event data retrieval from blockchain networks, 2) Decoder: a data decoding algorithm to transform the extracted event data to a human-readable format, and 3) Formatter: an algorithm to produce event log files in a format that is compatible with PM tools. The application supports batch processing smart contracts on Ethereum virtual machine networks.
