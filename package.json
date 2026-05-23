@@ -12,7 +12,7 @@
   "author": "Fouzia Alzhrani",
   "license": "Apatche",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": ">=0.31.1",
     "chalk": "^4.1.2",
     "json2csv": "^5.0.7",
     "unix-timestamp": "^0.2.0",
