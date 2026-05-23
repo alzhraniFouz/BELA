@@ -12,8 +12,8 @@ The application consists of two modules: Process Awareness Recognizer (PAR) and 
 This project is developed during my PhD research at the [University of Manchester](https://www.manchester.ac.uk/). The research is funded by [King Abdulaziz University](https://www.kau.edu.sa/). It is a proof of concept and will always remain in this state.
 
 Supervisors:
-* Liping Zhao
-* Kawther Saeedi
+* Dr. Liping Zhao
+* Dr. Kawther Saeedi
 
 ## Installation
 
